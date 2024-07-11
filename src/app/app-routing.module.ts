@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+/**
+ * Sets up a router to direct the pages accordinlgy
+ */
+
 const routes: Routes = [];
 
 @NgModule({

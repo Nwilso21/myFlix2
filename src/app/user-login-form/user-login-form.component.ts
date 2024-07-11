@@ -4,6 +4,11 @@ import { UserLogin } from '../fetch-api-data.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 
+
+/**
+ * Generates a window to prompt a user for a login
+ */
+
 @Component({
   selector: 'app-user-login-form',
   templateUrl: './user-login-form.component.html',

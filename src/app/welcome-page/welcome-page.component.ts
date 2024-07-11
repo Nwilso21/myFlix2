@@ -3,6 +3,10 @@ import { UserLoginFormComponent } from '../user-login-form/user-login-form.compo
 import { UserRegistrationFormComponent } from '../user-registration-form/user-registration-form.component';
 import { MatDialog } from '@angular/material/dialog';
 
+/**
+ * Creates a splash page to prompt a user to login or create account
+ */
+
 @Component({
   selector: 'app-welcome-page',
   templateUrl: './welcome-page.component.html',

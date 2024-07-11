@@ -9,6 +9,10 @@ import { map, catchError } from 'rxjs/operators';
 const apiUrl = 'https://vast-garden-26469-856928a3215d.herokuapp.com';
 
 
+/**
+ * Accesses and retrieves all data from movie-api neccesary to run the site, getmovies, getusers, addusers etc.
+ */
+
 @Injectable({
   providedIn: 'root',
 })
